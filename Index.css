@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.top_heading{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.fs_14{
+    font-size: 14px;
+    font-family: Helvetica;
+}
+.fs_12{
+    font-size: 12px;
+    font-family: Helvetica;
+}
+.fs_18{
+    font-size: 18px;
+    font-family: Helvetica;
+}
+.font300{
+    font-weight: 300;
+}
+.font400{
+    font-weight: 400;
+    font-family: Helvetica;
+}
+.font500{
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.color_grey{
+    color: #878787
+}
+.font700{
+    font-weight:700;
+    font-family: Helvetica;
+}
+.topOptions{
+    width:30%;
+}
+.prod_des{
+    color: #878787;
+    font-size: 14px;
+    font-weight:300;
+    font-family: Helvetica;
+}
+
+/* product section */
+
+.product_section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18% ;
+    grid-gap: 0.8rem;
+    justify-content: center;
+    grid-row-gap: 1.5rem;
+
+}
+.product_card{
+    width:100%;
+    padding-bottom: 20px;
+    height: 28rem;
+}
+/* .product_card:hover{
+    box-shadow: -1px 3px 9px 1px rgba(0,0,0,0.75);
+} */
+.myn_cash{
+    background: linear-gradient(90.06deg, #181716 0%, #ED4E08 99.97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0px;
+}
+.myn_cash p{
+    color:white
+}
+.invite_btn{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+.prod_filtersec{
+    margin: 24px;
+}
+
+.filterborder{
+    border-radius: 52px;
+    border:1px solid black;
+}
+.non_active{
+    font-size: 14px;
+    color:black;
+    border: 1px solid #c4c4c4;
+    padding: 14px 22px;
+    border-radius: 50px;
+    margin: 0 5px;
+    font-size: 12px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+.sortwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 15px 18px;
+}
+.sortwrapper div{
+  font-weight: 500;
+  margin-right: 10px
+}
+.sizecircle{
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.size_option{
+    display: grid;
+    place-items: center;
+    border: 1px solid #C4C4C4;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 4px;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.size_option:hover{
+    border:1px solid black;
+
+}
+.size_op_wrap{
+    display: flex;
+    align-items: center;
+    margin: 11px 0 17px 0;
+
+}
+.size_sec{
+    display: block;
+    margin-top: 10px;
+}
+.size_sec:hover{
+    display: none;
+}
+.ATCbtn{
+    text-align: center;
+    border:1px solid black;
+    font-family: Helvetica;
+    padding: 7px 0px;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 10px;
+}
+.shopcart i{
+    position: relative;
+}
+.shopcart p{
+    position: absolute;
+    margin-top: -0.8rem;
+    margin-left: 0.5rem;
+    height:20px;
+    width:20px;
+    color:white;
+    background: #E64C09;
+    text-align: center;
+    border-radius: 50%;
+}
+.cart_items{
+    padding: 20px;
+}
+
+/* Modal */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .cart_card{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }

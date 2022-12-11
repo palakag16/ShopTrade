@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css" />
+    <!-- <script src="./Index.js"></script> -->
+    <script
+      src="https://kit.fontawesome.com/97c1776e24.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="main_header">
+      <div>
+        <img src="./assets/logo.svg" />
+      </div>
+      <div class="top_heading topOptions">
+        <div class="fs_14 font400">Shop</div>
+        <div class="fs_14 font400">About Us</div>
+        <div class="fs_14 font400">Our Store</div>
+        <div class="fs_14 font400">Contact Us</div>
+      </div>
+      <div class="top_heading" style="width: 10%">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user"></i>
+        <div class="shopcart" id="shopping_cart">
+          <p id="cartval">0</p>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </section>
+    <section class="myn_cash">
+      <p class="font500">
+        Invite friends to Big Fashion Festival & get up to $150 MynCash for
+        every person who visits
+      </p>
+      <div class="font400 fs_14 invite_btn">Invite Now</div>
+    </section>
+
+    <section class="prod_filtersec">
+      <div class="fs_14 font400" style="color: rgba(0, 0, 0, 0.5)">
+        Home / Clothing / Mens Clothing /
+        <span style="color: #000">All Mens Clothing</span>
+      </div>
+      <div class="font700" style="font-size: 20px; margin: 16px 0px">
+        All Products
+        <span style="color: #878787; font-weight: 300">(25 Products)</span>
+      </div>
+      <section class="top_heading">
+        <section class="top_heading">
+          <div>FILTERS:</div>
+          <section class="top_heading" id="tags_filter">
+          </section>
+        </section>
+        <div class="sortwrapper">
+          <div class="fs_14">
+            Sort By: <span style="font-weight: 500">Price Low to High</span>
+          </div>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </section>
+    </section>
+    <section id="product_section" class="product_section"></section>
+    <!-- modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="cart_items_wrap" class="cart_items">
+          <!-- <div style="display:flex;"> 
+          <img src="../assets/" height="40px" width="40px"/> 
+            <div class="fs_18 font500">Product name</div>
+            <div class="fs_14 font400"> description</div>
+          </div> -->
+        </div>
+      </div>
+    
+    </div>
+    <script src="./Index.js"></script>
+  </body>
+</html>
